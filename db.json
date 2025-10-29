@@ -1,0 +1,409 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Arsenal",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      "stadium": "Emirates Stadium",
+      "founded": 1886,
+      "trophies": [
+        "Premier League (13)",
+        "FA Cup (14)",
+        "Community Shield (16)"
+      ],
+      "legends": [
+        "Thierry Henry",
+        "Dennis Bergkamp",
+        "Patrick Vieira"
+      ],
+      "points": 21
+    },
+    {
+      "id": "2",
+      "name": "Manchester City",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      "stadium": "Etihad Stadium",
+      "founded": 1880,
+      "trophies": [
+        "Premier League (9)",
+        "FA Cup (6)",
+        "Champions League (1)"
+      ],
+      "legends": [
+        "Sergio Agüero",
+        "David Silva",
+        "Yaya Touré"
+      ],
+      "points": 23,
+      "played": 10,
+      "goalsScored": 14,
+      "goalsConceded": 2
+    },
+    {
+      "id": "3",
+      "name": "Liverpool",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      "stadium": "Anfield",
+      "founded": 1892,
+      "trophies": [
+        "Premier League (19)",
+        "FA Cup (8)",
+        "Champions League (6)"
+      ],
+      "legends": [
+        "Steven Gerrard",
+        "Kenny Dalglish",
+        "Ian Rush"
+      ],
+      "points": 20
+    },
+    {
+      "id": "4",
+      "name": "Chelsea",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      "stadium": "Stamford Bridge",
+      "founded": 1905,
+      "trophies": [
+        "Premier League (6)",
+        "FA Cup (8)",
+        "Champions League (2)"
+      ],
+      "legends": [
+        "Frank Lampard",
+        "Didier Drogba",
+        "John Terry"
+      ],
+      "points": 18
+    },
+    {
+      "id": "5",
+      "name": "Tottenham Hotspur",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      "stadium": "Tottenham Hotspur Stadium",
+      "founded": 1882,
+      "trophies": [
+        "League Titles (2)",
+        "FA Cup (8)",
+        "UEFA Cup (2)"
+      ],
+      "legends": [
+        "Harry Kane",
+        "Gareth Bale",
+        "Ledley King"
+      ],
+      "points": 17
+    },
+    {
+      "id": "6",
+      "name": "Manchester United",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+      "stadium": "Old Trafford",
+      "founded": 1878,
+      "trophies": [
+        "Premier League (20)",
+        "FA Cup (12)",
+        "Champions League (3)"
+      ],
+      "legends": [
+        "Wayne Rooney",
+        "Ryan Giggs",
+        "Paul Scholes"
+      ],
+      "points": 19
+    },
+    {
+      "id": "7",
+      "name": "Newcastle United",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
+      "stadium": "St James' Park",
+      "founded": 1892,
+      "trophies": [
+        "League Titles (4)",
+        "FA Cup (6)"
+      ],
+      "legends": [
+        "Alan Shearer",
+        "Peter Beardsley",
+        "Kevin Keegan"
+      ],
+      "points": 15
+    },
+    {
+      "id": "8",
+      "name": "Aston Villa",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/Aston_Villa_FC_crest_%282016%29.svg",
+      "stadium": "Villa Park",
+      "founded": 1874,
+      "trophies": [
+        "League Titles (7)",
+        "FA Cup (7)",
+        "European Cup (1)"
+      ],
+      "legends": [
+        "Paul McGrath",
+        "Gareth Barry",
+        "Peter Withe"
+      ],
+      "points": 16
+    },
+    {
+      "id": "9",
+      "name": "West Ham United",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
+      "stadium": "London Stadium",
+      "founded": 1895,
+      "trophies": [
+        "FA Cup (3)",
+        "UEFA Conference League (1)"
+      ],
+      "legends": [
+        "Bobby Moore",
+        "Trevor Brooking",
+        "Paolo Di Canio"
+      ],
+      "points": 14
+    },
+    {
+      "id": "10",
+      "name": "Brighton & Hove Albion",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg",
+      "stadium": "Amex Stadium",
+      "founded": 1901,
+      "trophies": [
+        "None major"
+      ],
+      "legends": [
+        "Glenn Murray",
+        "Bobby Zamora"
+      ],
+      "points": 12
+    },
+    {
+      "id": "11",
+      "name": "Brentford",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg",
+      "stadium": "Gtech Community Stadium",
+      "founded": 1889,
+      "trophies": [
+        "Championship (1)"
+      ],
+      "legends": [
+        "Gary Blissett",
+        "Dean Holdsworth"
+      ],
+      "points": 10
+    },
+    {
+      "id": "12",
+      "name": "Crystal Palace",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Crystal_Palace_FC_logo.svg",
+      "stadium": "Selhurst Park",
+      "founded": 1905,
+      "trophies": [
+        "None major"
+      ],
+      "legends": [
+        "Wilfried Zaha",
+        "Jim Cannon"
+      ],
+      "points": 9
+    },
+    {
+      "id": "13",
+      "name": "Fulham",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC_%28shield%29.svg",
+      "stadium": "Craven Cottage",
+      "founded": 1879,
+      "trophies": [
+        "None major"
+      ],
+      "legends": [
+        "Johnny Haynes",
+        "Clint Dempsey"
+      ],
+      "points": 8
+    },
+    {
+      "id": "14",
+      "name": "Everton",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
+      "stadium": "Goodison Park",
+      "founded": 1878,
+      "trophies": [
+        "League Titles (9)",
+        "FA Cup (5)"
+      ],
+      "legends": [
+        "Dixie Dean",
+        "Leighton Baines"
+      ],
+      "points": 9
+    },
+    {
+      "id": "15",
+      "name": "Nottingham Forest",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/63/Nottingham_Forest_logo.svg",
+      "stadium": "City Ground",
+      "founded": 1865,
+      "trophies": [
+        "League Titles (1)",
+        "European Cup (2)"
+      ],
+      "legends": [
+        "Brian Clough",
+        "John Robertson"
+      ],
+      "points": 7
+    },
+    {
+      "id": "16",
+      "name": "Leicester City",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png",
+      "stadium": "King Power Stadium",
+      "founded": 1884,
+      "trophies": [
+        "Premier League (1)",
+        "FA Cup (1)"
+      ],
+      "legends": [
+        "Jamie Vardy",
+        "Gary Lineker"
+      ],
+      "points": 7
+    },
+    {
+      "id": "17",
+      "name": "Southampton",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c9/FC_Southampton.svg",
+      "stadium": "St Mary's Stadium",
+      "founded": 1885,
+      "trophies": [
+        "FA Cup (1)"
+      ],
+      "legends": [
+        "Matt Le Tissier",
+        "Rickie Lambert"
+      ],
+      "points": 6
+    },
+    {
+      "id": "18",
+      "name": "Bournemouth",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg",
+      "stadium": "Vitality Stadium",
+      "founded": 1899,
+      "trophies": [
+        "Championship (1)"
+      ],
+      "legends": [
+        "Steve Fletcher",
+        "Harry Arter"
+      ],
+      "points": 5
+    },
+    {
+      "id": "19",
+      "name": "Wolverhampton Wanderers",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg",
+      "stadium": "Molineux Stadium",
+      "founded": 1877,
+      "trophies": [
+        "League Titles (3)",
+        "FA Cup (4)"
+      ],
+      "legends": [
+        "Steve Bull",
+        "Billy Wright"
+      ],
+      "points": 6
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "1",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "time": "2025-10-25T17:00",
+      "score": "2-1"
+    },
+    {
+      "id": "2",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Liverpool",
+      "time": "2025-10-26T18:00",
+      "score": "1-1"
+    },
+    {
+      "id": "3",
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Manchester United",
+      "time": "2025-10-27T20:00",
+      "score": "3-2"
+    },
+    {
+      "id": "06fe",
+      "homeTeam": "brentford",
+      "awayTeam": "burnely",
+      "time": "2025-10-12T09:57",
+      "score": "5-6"
+    },
+    {
+      "id": "3744",
+      "homeTeam": "Arsenal",
+      "awayTeam": "liverpool",
+      "time": "2025-10-11T10:19",
+      "score": "4-1"
+    },
+    {
+      "id": "142f",
+      "homeTeam": "manchester united",
+      "awayTeam": "arsenal",
+      "time": "2025-10-14T11:18",
+      "score": "7-0"
+    },
+    {
+      "id": "aac7",
+      "homeTeam": "manchester united",
+      "awayTeam": "liverpool",
+      "time": "2025-10-11T12:55",
+      "score": "4-0"
+    },
+    {
+      "id": "bbd4",
+      "homeTeam": "brentford",
+      "awayTeam": "chelsea",
+      "time": "2025-10-15T13:29",
+      "score": "3-2"
+    }
+  ],
+  "topPlayers": [
+    {
+      "id": "1",
+      "name": "Erling Haaland",
+      "team": "Manchester City",
+      "goals": 10,
+      "assists": 2
+    },
+    {
+      "id": "2",
+      "name": "Mohamed Salah",
+      "team": "Liverpool",
+      "goals": 8,
+      "assists": 4
+    },
+    {
+      "id": "3",
+      "name": "Bukayo Saka",
+      "team": "Arsenal",
+      "goals": 6,
+      "assists": 5
+    },
+    {
+      "id": "4",
+      "name": "Son Heung-min",
+      "team": "Tottenham Hotspur",
+      "goals": 7,
+      "assists": 3
+    }
+  ]
+}
