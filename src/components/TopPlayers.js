@@ -11,7 +11,7 @@ function TopPlayers() {
 
   // Load players from db.json
   useEffect(() => {
-    fetch("http://localhost:3001/topPlayers")
+    fetch("https://epl-backend.vercel.app/topPlayers")
       .then((res) => res.json())
       .then(setPlayers)
       .catch((err) => console.error("Error fetching players:", err));
@@ -26,7 +26,7 @@ function TopPlayers() {
   const handleSave = () => {
     if (!editingPlayer) return;
 
-    fetch(`http://localhost:3001/topPlayers/${editingPlayer.id}`, {
+    fetch(`https://epl-backend.vercel.app/topPlayers${editingPlayer.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(editingPlayer)
@@ -46,7 +46,7 @@ function TopPlayers() {
       return;
     }
 
-    fetch("http://localhost:3001/topPlayers", {
+    fetch("https://epl-backend.vercel.app/topPlayers", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newPlayer)
@@ -61,7 +61,7 @@ function TopPlayers() {
 
   // Delete player
   const handleDelete = (id) => {
-    fetch(`http://localhost:3001/topPlayers/${id}`, { method: "DELETE" })
+    fetch(`https://epl-backend.vercel.app/topPlayers${id}`, { method: "DELETE" })
       .then(() => setPlayers(players.filter((p) => p.id !== id)))
       .catch((err) => console.error("Error deleting player:", err));
   };

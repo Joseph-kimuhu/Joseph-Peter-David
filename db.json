@@ -367,13 +367,6 @@
       "awayTeam": "liverpool",
       "time": "2025-10-11T12:55",
       "score": "4-0"
-    },
-    {
-      "id": "bbd4",
-      "homeTeam": "brentford",
-      "awayTeam": "chelsea",
-      "time": "2025-10-15T13:29",
-      "score": "3-2"
     }
   ],
   "topPlayers": [
@@ -382,7 +375,8 @@
       "name": "Erling Haaland",
       "team": "Manchester City",
       "goals": 10,
-      "assists": 2
+      "assists": 2,
+      "club": "man city"
     },
     {
       "id": "2",

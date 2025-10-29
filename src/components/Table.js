@@ -18,7 +18,7 @@ function Table() {
   });
 
   useEffect(() => {
-    fetch("http://localhost:3001/teams")
+    fetch("https://epl-backend.vercel.app/teams")
       .then((res) => res.json())
       .then(setTeams)
       .catch((err) => console.error("Error fetching teams:", err));
@@ -44,7 +44,7 @@ function Table() {
       points: parseInt(updatedData.points),
     };
 
-    fetch(`http://localhost:3001/teams/${id}`, {
+    fetch(`https://epl-backend.vercel.app/teams${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newTeamData),
@@ -64,7 +64,7 @@ function Table() {
 
   const handleDelete = (id) => {
     if (!window.confirm("Are you sure you want to delete this team?")) return;
-    fetch(`http://localhost:3001/teams/${id}`, { method: "DELETE" })
+    fetch(`https://epl-backend.vercel.app/teams${id}`, { method: "DELETE" })
       .then(() => setTeams(teams.filter((t) => t.id !== id)))
       .catch((err) => console.error("Error deleting team:", err));
   };
@@ -75,7 +75,7 @@ function Table() {
       return;
     }
 
-    fetch("http://localhost:3001/teams", {
+    fetch("https://epl-backend.vercel.app/teams", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newTeam),

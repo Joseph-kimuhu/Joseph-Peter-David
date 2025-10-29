@@ -13,7 +13,7 @@ function Fixtures() {
 
   // Load fixtures
   useEffect(() => {
-    fetch("http://localhost:3001/fixtures")
+    fetch("https://epl-backend.vercel.app/fixtures")
       .then((res) => res.json())
       .then(setFixtures)
       .catch((err) => console.error("Error loading fixtures:", err));
@@ -26,7 +26,7 @@ function Fixtures() {
   const handleSave = () => {
     if (!editingFixture) return;
 
-    fetch(`http://localhost:3001/fixtures/${editingFixture.id}`, {
+    fetch(`https://epl-backend.vercel.app/fixtures${editingFixture.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(editingFixture),
@@ -48,7 +48,7 @@ function Fixtures() {
       return;
     }
 
-    fetch("http://localhost:3001/fixtures", {
+    fetch("https://epl-backend.vercel.app/fixtures", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newFixture),
@@ -63,7 +63,7 @@ function Fixtures() {
 
   // Handle delete
   const handleDelete = (id) => {
-    fetch(`http://localhost:3001/fixtures/${id}`, { method: "DELETE" })
+    fetch(`https://epl-backend.vercel.app/fixtures${id}`, { method: "DELETE" })
       .then(() => setFixtures(fixtures.filter((f) => f.id !== id)))
       .catch((err) => console.error("Error deleting fixture:", err));
   };

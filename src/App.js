@@ -6,7 +6,7 @@ import TeamDetail from "./components/TeamDetail";
 import Fixtures from "./components/Fixtures";
 import Table from "./components/Table";
 import TopPlayers from "./components/TopPlayers";
-import "./index.css";
+
 
 function App() {
   return (

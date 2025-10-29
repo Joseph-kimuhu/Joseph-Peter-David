@@ -5,7 +5,7 @@ function Teams() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/teams")
+    fetch("https://epl-backend.vercel.app/teams")
       .then(res => res.json())
       .then(data => setTeams(data));
   }, []);
