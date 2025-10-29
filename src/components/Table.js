@@ -29,7 +29,7 @@ function Table() {
     setUpdatedData({
       played: team.played,
       goalsScored: team.goalsScored,
-      goalsConceded: team.goalsConceded,
+      goalsConceded: team.goalsconcededbyteam,
       points: team.points,
     });
   };
