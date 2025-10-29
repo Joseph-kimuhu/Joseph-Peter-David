@@ -188,7 +188,7 @@ function TopPlayers() {
           }}
           onClick={handleCreate}
         >
-          Add Player
+          new Player
         </button>
       </div>
     </div>
