@@ -11,13 +11,26 @@ Real-time updates to player statistics.
 `Match Fixtures` View upcoming and past match fixtures Match results and status indicators
 
 
-### 3- ***Technolologies used***
+### 3- **Technolologies used**
 
+`React` - JavaScript library for building user interfaces
+`React Router` - Declarative routing for React
+`Tailwind CSS and css` - Utility-first CSS framework
+`db.JSON` - Data storage format for fixtures, players, and standings
 
+#### 4- **Installation**
 
+# 1- `Clone the repository`:
+git clone git@github.com:David-kuron1996/soccer-app.git
 
-#### 4- ***Installation***
+# 2- `Navigate to the project directory`:
+cd Epl-app
 
+# 3- `Install dependencies`:
+npm install
+
+# 4- `Start the development server`:
+npm start
 
 
 
