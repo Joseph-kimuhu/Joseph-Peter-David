@@ -71,7 +71,7 @@ function Fixtures() {
   return (
     <div className="text-center p-8 bg-gray-100 min-h-screen">
       <h2 className="text-3xl font-bold text-indigo-800 mb-6">
-        Premier League Fixtures
+        ALL PREMIER LEAGUE FIXTURES
       </h2>
 
       
