@@ -1,12 +1,14 @@
-# 1- ***project Name***
+# 1- **project Name**
 
+***Premier League Soccer App***
+comprehensive React application for tracking and managing English Premier League soccer data, including team standings, player statistics, and match fixtures.
 
+## 2- **project features**
 
-
-
-## 2- ***project features***
-
-
+`Team Standings View` Display all Premier League teams with their statistics Edit team points directly through the interface Real-time updates to standings table Player Statistics.
+`Player Statistics` View player goals and assists data Edit player goals and assists Delete players from the database
+Real-time updates to player statistics.
+`Match Fixtures` View upcoming and past match fixtures Match results and status indicators
 
 
 ### 3- ***Technolologies used***
