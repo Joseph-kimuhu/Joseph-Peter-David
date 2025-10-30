@@ -81,10 +81,10 @@ function TopPlayers() {
       >
         <thead>
           <tr style={{ backgroundColor: "#0B2447", color: "white" }}>
-            <th>Name</th>
-            <th>Club</th>
-            <th>Goals</th>
-            <th>Actions</th>
+            <th>NAME</th>
+            <th>CLUB</th>
+            <th>GOALS</th>
+            <th>ACTIONS</th>
           </tr>
         </thead>
         <tbody>
