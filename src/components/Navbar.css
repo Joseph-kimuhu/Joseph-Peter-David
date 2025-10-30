@@ -36,6 +36,7 @@
   opacity: 0.9;
   padding: 6px 8px;
   border-radius: 6px;
+  display: flex;
 }
 
 .nav-links a:hover {
