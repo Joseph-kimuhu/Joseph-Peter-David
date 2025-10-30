@@ -6,7 +6,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1>EPL Dashboard</h1>
+      <h1>🏆Premier League</h1>
       <ul>
         <li><Link to="/">Teams</Link></li>
         <li><Link to="/fixtures">Fixtures</Link></li>
