@@ -32,14 +32,66 @@ npm install
 # 4- `Start the development server`:
 npm start
 
+##### 5- **project structure**
+
+<!-- {
+  "standings": [
+    {
+      "id": 1,
+      "team": "Manchester City",
+      "played": 38,
+      "won": 28,
+      "drawn": 5,
+      "lost": 5,
+      "gf": 99,
+      "ga": 26,
+      "gd": 73,
+      "points": 89
+    },
+    // ... more teams
+  ],
+  "fixtures": [
+    {
+      "id": 1,
+      "homeTeam": "Man City",
+      "awayTeam": "Arsenal",
+      "date": "2023-08-12",
+      "result": "2-1",
+      "status": "Played"
+    },
+    // ... more fixtures
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "goals": 36,
+      "assists": 8
+    },
+    // ... more players
+  ]
+} -->
 
 
-##### 5- ***project structure***
+###### 6- **Usage**
+
+`Navigation` Use the navbar to navigate between different sections:
+`Home`: Overview of the league
+`Standings`: View and edit team standings
+ `Fixtures`: View match fixtures
+`Players`: View and manage player statistics
+`Editing`: Team Points In the Standings section, click "Edit Points" next to any team
+Enter the new points value and click "Save" The standings table will update automatically
+`Managing Player Statistics`: In the Players section, use the "Edit" button to modify player goals and assists
+Use the `Delete` button to remove a player from the database Changes are reflected immediately in the table
 
 
 
 
-###### 6- ***Usage***
+
+
+
 
 
 
