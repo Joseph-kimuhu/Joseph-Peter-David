@@ -11,7 +11,7 @@ function Fixtures() {
     score: "",
   });
 
-  // Load fixtures
+  
   useEffect(() => {
     fetch("https://epl-backend.vercel.app/fixtures")
       .then((res) => res.json())
@@ -19,10 +19,10 @@ function Fixtures() {
       .catch((err) => console.error("Error loading fixtures:", err));
   }, []);
 
-  // Handle edit
+  
   const handleEdit = (fixture) => setEditingFixture({ ...fixture });
 
-  // Handle save
+  
   const handleSave = () => {
     if (!editingFixture) return;
 
@@ -41,7 +41,7 @@ function Fixtures() {
       .catch((err) => console.error("Error saving fixture:", err));
   };
 
-  // Handle new fixture creation
+  
   const handleCreate = () => {
     if (!newFixture.homeTeam || !newFixture.awayTeam || !newFixture.time) {
       alert("Please fill all fixture details before saving.");
@@ -61,7 +61,7 @@ function Fixtures() {
       .catch((err) => console.error("Error creating fixture:", err));
   };
 
-  // Handle delete
+  
   const handleDelete = (id) => {
     fetch(`https://epl-backend.vercel.app/fixtures${id}`, { method: "DELETE" })
       .then(() => setFixtures(fixtures.filter((f) => f.id !== id)))
@@ -74,7 +74,7 @@ function Fixtures() {
         Premier League Fixtures
       </h2>
 
-      {/* Fixtures Table */}
+      
       <div className="overflow-x-auto shadow-lg rounded-lg bg-white mx-auto w-11/12">
         <table className="min-w-full border-collapse">
           <thead>
@@ -186,7 +186,7 @@ function Fixtures() {
         </table>
       </div>
 
-      {/* Create Fixture */}
+      
       <h3 className="text-2xl font-semibold text-indigo-700 mt-10 mb-3">
         Create New Fixture
       </h3>

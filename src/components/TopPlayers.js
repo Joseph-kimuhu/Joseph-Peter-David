@@ -9,7 +9,7 @@ function TopPlayers() {
     goals: ""
   });
 
-  // Load players from db.json
+  
   useEffect(() => {
     fetch("https://epl-backend.vercel.app/topPlayers")
       .then((res) => res.json())
@@ -17,12 +17,12 @@ function TopPlayers() {
       .catch((err) => console.error("Error fetching players:", err));
   }, []);
 
-  // Handle edit click
+  
   const handleEdit = (player) => {
     setEditingPlayer({ ...player });
   };
 
-  // Save updated player
+  
   const handleSave = () => {
     if (!editingPlayer) return;
 
@@ -39,7 +39,7 @@ function TopPlayers() {
       .catch((err) => console.error("Error saving player:", err));
   };
 
-  // Create a new player
+  
   const handleCreate = () => {
     if (!newPlayer.name || !newPlayer.club || !newPlayer.goals) {
       alert("Please fill in all player details!");
@@ -59,7 +59,7 @@ function TopPlayers() {
       .catch((err) => console.error("Error creating player:", err));
   };
 
-  // Delete player
+  
   const handleDelete = (id) => {
     fetch(`https://epl-backend.vercel.app/topPlayers${id}`, { method: "DELETE" })
       .then(() => setPlayers(players.filter((p) => p.id !== id)))
@@ -145,7 +145,7 @@ function TopPlayers() {
         </tbody>
       </table>
 
-      {/* Create Player Section */}
+      
       <h3 style={{ marginTop: "30px" }}>Add New Player</h3>
       <div
         style={{
@@ -188,7 +188,7 @@ function TopPlayers() {
           }}
           onClick={handleCreate}
         >
-          new Player
+          New Player
         </button>
       </div>
     </div>
